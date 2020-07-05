@@ -13,6 +13,12 @@ public class AuthenticationAlert {
 		
 		//opening the browser by calling the constructor of ChromeDriver class and upcasting
 		WebDriver driver=new ChromeDriver();
+		
+		/*
+		 * url=abcdatabase.com/basicauth
+		 * username=test
+		 * password=test
+		 */
 		driver.get("http://test:test@abcdatabase.com/basicauth");
 	}
 
